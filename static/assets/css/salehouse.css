@@ -1,0 +1,42 @@
+.margin-0-auto {
+  margin: 0 auto !important;
+}
+.color-ff385c {
+  color: #ff385c !important;
+}
+.color-008489 {
+  color: #008489 !important;
+}
+.bgcolor-ff385c {
+  background-color: #ff385c !important;
+}
+.bgcolor-008489 {
+  background-color: #008489 !important;
+}
+.clickable {
+  cursor: pointer !important;
+}
+/* .quart {
+  background: rgb(255, 255, 255, 0.25) !important;
+  -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+.befdemi {
+  background: rgb(255, 255, 255, 0.5) !important;
+  -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+.aftdemi {
+  background: rgb(255, 255, 255, 0.75) !important;
+  -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+} */
+.end {
+  background: rgb(255, 255, 255, 1) !important;
+  -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
