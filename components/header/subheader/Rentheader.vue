@@ -36,6 +36,7 @@ export default {
   data() {
     return {
       arrival: new Date(),
+      date: new Date(),
     }
   },
   methods: {

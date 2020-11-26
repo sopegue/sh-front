@@ -1,22 +1,9 @@
 <template>
   <div classe="welcome">
-    <Bigheader :scroll="scroll" :scrollpos="scrollpos" :opacity="opacity" />
-    <Searchpage :scroll="scroll" :scrollpos="scrollpos" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
-    <Header class="home-header" />
+    <div class="welcome">
+      <Bigheader :scroll="scroll" :scrollpos="scrollpos" :opacity="opacity" />
+      <Searchpage :scroll="scroll" :scrollpos="scrollpos" />
+    </div>
   </div>
 </template>
 
@@ -64,4 +51,7 @@ export default {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
+.welcome {
+  height: 980px;
+}
 </style>

@@ -20,7 +20,7 @@
       <input
         type="search"
         style="height: 40px"
-        class="bg-transparent w-full none-outline border-0 px-1"
+        class="bg-transparent semibold-16px w-full none-outline border-0 px-1"
         placeholder="Location"
       />
     </div>
@@ -64,6 +64,9 @@ export default {
 .ssearch {
   z-index: 0;
   background: transparent !important;
+}
+input::placeholder {
+  font-size: 14px;
 }
 .bbtn-search {
   width: fit-content !important;
