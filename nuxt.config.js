@@ -2,13 +2,8 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Anywhere can be your home | Salehouse',
-    meta: [
-      {
+    meta: [{
         charset: 'utf-8',
-      },
-      {
-        name: 'metro4:init',
-        content: 'false',
       },
       {
         name: 'viewport',
@@ -20,14 +15,10 @@ export default {
         content: 'Salehouse home page',
       },
     ],
-    script: [
-      {
-        src: '/assets/js/metromin.js',
-        body: true,
-      },
-    ],
-    link: [
-      {
+    script: [{
+      src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js',
+    }, ],
+    link: [{
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico',
@@ -43,7 +34,12 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['@/plugins/directive.js'],
+  plugins: [
+    '@/plugins/directive.js',
+    {
+      src: '@/plugins/vue-tailwind.js',
+    },
+  ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -54,8 +50,11 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/moment',
   ],
-
+  moment: {
+    timezone: true
+  },
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios

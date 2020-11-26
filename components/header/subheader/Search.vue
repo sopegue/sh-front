@@ -4,8 +4,11 @@
     :class="{ 'border rounded-full': scrollpos > 1 }"
   >
     <client-only>
-      <div v-click-outside="hide" class="absolute h-10 left-0 top-0 text-left">
-        <div>
+      <div
+        v-click-outside="hide"
+        class="absolute h-10 left-0 top-0 text-left ssearch"
+      >
+        <div class="bbtn-search">
           <button
             id="options-menu"
             type="button"
@@ -18,7 +21,7 @@
               }
             "
           >
-            {{ $store.state.currentSearch }}
+            <span style="width: 32px">{{ $store.state.currentSearch }}</span>
             <!-- Heroicon name: chevron-down -->
             <svg
               class="font-bold -mr-1 ml-2 pt-1 h-5 w-5"
@@ -38,7 +41,7 @@
         </div>
         <div
           v-show="show"
-          class="search-dropdown z-10 absolute top-5 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+          class="search-dropdown border z-10 absolute top-5 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
         >
           <div
             class="py-1"
@@ -54,7 +57,7 @@
             >
               <div
                 v-if="$store.state.currentSearch === 'Sale'"
-                class="w-2 h-6 rounded-full font-bold bgcolor-008489 mr-2"
+                class="w-1 h-6 rounded-full font-bold bgcolor-008489 mr-2"
               >
                 <path
                   fill-rule="evenodd"
@@ -72,7 +75,7 @@
             >
               <div
                 v-if="$store.state.currentSearch === 'Rent'"
-                class="w-2 h-6 rounded-full font-bold bgcolor-008489 mr-2"
+                class="w-1 h-6 rounded-full font-bold bgcolor-008489 mr-2"
               >
                 <path
                   fill-rule="evenodd"
@@ -136,7 +139,7 @@ export default {
   computed: {
     placeholder() {
       return this.$store.state.currentSearch === 'Sale'
-        ? 'Paris Gros Caillou, private yard...'
+        ? 'Paris gros caillou, private yard...'
         : 'Santorini New Harbor...'
     },
     show() {
@@ -154,6 +157,26 @@ export default {
 }
 </script>
 <style scoped>
+.ssearch {
+  z-index: 0;
+}
+.bbtn-search {
+  width: fit-content !important;
+}
+.search-dropdown {
+  width: 552px !important;
+  margin-top: 0.2rem;
+}
+@media screen and (max-width: 1280px) {
+  .search-dropdown {
+    width: 358px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .search-dropdown {
+    width: 166px !important;
+  }
+}
 #input-id::-webkit-search-cancel-button {
   position: relative;
   right: 0.5%;
@@ -165,6 +188,9 @@ export default {
 .search,
 .search-input {
   width: 100% !important;
+}
+#input-id {
+  z-index: 10;
 }
 .search-input {
   padding-left: 6rem;

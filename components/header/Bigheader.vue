@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home w-full">
     <div
       class="bgcolor z-30"
       :class="{

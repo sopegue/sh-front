@@ -13,8 +13,21 @@
 .bgcolor-008489 {
   background-color: #008489 !important;
 }
+.border-008489 {
+  border-color: #008489 !important;
+}
 .clickable {
   cursor: pointer !important;
+}
+.placehold {
+  top: 6.25rem;
+  width: 174px !important;
+}
+.aplacehold {
+  top: -1.8rem;
+}
+.width-185 {
+  width: 185px !important;
 }
 /* .quart {
   background: rgb(255, 255, 255, 0.25) !important;
@@ -37,6 +50,28 @@
 .end {
   background: rgb(255, 255, 255, 1) !important;
   -webkit-transition: background-color 100ms linear;
-    -ms-transition: background-color 100ms linear;
-    transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+}
+.none-outline {
+  outline: 2px solid transparent !important;
+  outline-offset: 2px !important;
+}
+.date-input input {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  height: 40px !important;
+  background: transparent !important;
+  font-size: 14px;
+  width: 185px !important;
+  font-weight: 600;
+  cursor: pointer;
+}
+.date-input {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.semibold-14px {
+  font-size: 14px !important;
+  font-weight: 600 !important;
 }

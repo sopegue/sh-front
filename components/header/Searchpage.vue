@@ -2,7 +2,7 @@
   <div class="relative rent full margin-0-auto">
     <div class="absolute w-full rend-d"></div>
     <div
-      class="absolute pt-20 content w-full"
+      class="absolute pt-32 content w-full"
       :class="{
         end: quart,
       }"

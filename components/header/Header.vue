@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between d-header items-center">
+  <div class="flex justify-between w-full d-header items-center">
     <nuxt-link to="/"
       ><Logoheader :scroll="scroll" :scrollpos="scrollpos" class="logoheader"
     /></nuxt-link>
