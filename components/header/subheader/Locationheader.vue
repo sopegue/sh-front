@@ -5,7 +5,7 @@
     class="relative text-left ssearch font-semibold"
   >
     <svg
-      class="absolute color-008489 left-0 ml-1 mt-2 h-6 w-6"
+      class="absolute color-008489 left-0 ml-2 mt-2 h-5 w-5"
       fill="currentColor"
       viewBox="0 0 20 20"
       xmlns="http://www.w3.org/2000/svg"

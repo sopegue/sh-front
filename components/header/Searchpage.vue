@@ -7,7 +7,7 @@
         end: quart,
       }"
     >
-      <Rentheader :scroll="scroll" :scrollpos="scrollpos" />
+      <Rentheadercpy :scroll="scroll" :scrollpos="scrollpos" />
     </div>
   </div>
 </template>

@@ -8,57 +8,27 @@
       <span :class="{ 'color-008489': scrollpos > 1 }">Bedroom</span>
     </div>
     <svg
-      id="svg4488"
-      class="absolute left-0 ml-1"
-      height="36"
-      fill="#008489"
+      id="Layer_1"
+      class="absolute color-008489 beds left-0 ml-2 mt-2 h-5 w-5"
+      height="240px"
+      style="enable-background: new 0 0 240 240"
       version="1.1"
-      width="36"
+      viewBox="0 0 240 240"
+      width="240px"
+      xml:space="preserve"
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
     >
-      <defs id="defs4490" />
-      <g id="layer1" transform="translate(0,-1016.3622)">
-        <path
-          id="path4403-1"
-          d="m 18,1020.3622 c 0.55821,0 1,0.4418 1,1 0,0.5582 -0.44179,1 -1,1 -0.55821,0 -1,-0.4418 -1,-1 0,-0.5582 0.44179,-1 1,-1 z m -6.10352,1.0001 6.10352,0 6.10156,0 2.64258,11.4434 c -0.34476,-0.208 -0.69045,-0.4473 -1.14453,-0.4473 -0.59175,0 -0.97732,0.3698 -1.27344,0.6211 -0.29612,0.2513 -0.50263,0.3826 -0.62695,0.3828 -0.0631,0 -0.14558,-0.032 -0.25,-0.096 -0.10443,-0.064 -0.23084,-0.1589 -0.37891,-0.2832 -0.29614,-0.2485 -0.68026,-0.6152 -1.26953,-0.6152 -0.58891,0 -0.97496,0.3648 -1.27148,0.6133 -0.29585,0.2479 -0.50331,0.38 -0.62891,0.3808 -0.12726,0 -0.33432,-0.1309 -0.63086,-0.3769 -0.29654,-0.2461 -0.68287,-0.6074 -1.26953,-0.6074 -0.14666,0 -0.28096,0.023 -0.4043,0.061 -0.37002,0.1131 -0.64272,0.3623 -0.86523,0.5468 -0.14834,0.1231 -0.27411,0.2178 -0.37891,0.2813 -0.1048,0.063 -0.18864,0.096 -0.25195,0.096 -0.12663,0 -0.33418,-0.1309 -0.63086,-0.377 -0.29668,-0.2461 -0.68287,-0.6074 -1.26953,-0.6074 -0.58717,0 -0.97125,0.3632 -1.26758,0.6094 -0.29633,0.2462 -0.50412,0.3754 -0.63086,0.375 -0.12405,0 -0.33261,-0.1309 -0.6289,-0.3809 -0.29631,-0.2499 -0.68087,-0.6172 -1.27149,-0.6172 -0.45358,0 -0.79945,0.2383 -1.14453,0.4453 z M 18,1033.378 c 0.10472,0 0.27997,0.1091 0.5,0.2793 l 0,1.6738 -1,0 0,-1.6738 c 0.087,-0.067 0.17951,-0.1421 0.24805,-0.1836 0.1048,-0.063 0.18863,-0.096 0.25195,-0.096 z m -1.30078,2.9843 2.60742,0 c 0.49289,0.3073 0.76046,0.6299 0.87891,1.0332 0.12606,0.4293 0.10707,0.9748 -0.0176,1.6231 -0.22692,1.1804 -0.77084,2.7114 -1.07422,4.3437 l -2.20117,0 c -0.29211,-1.6283 -0.81051,-3.156 -1.02539,-4.3379 -0.11809,-0.6494 -0.13551,-1.1996 -0.0117,-1.6328 0.1158,-0.4053 0.37647,-0.725 0.84375,-1.0293 z m -0.19922,8 2.98438,0 0.0156,0 c 0.28565,0 0.5,0.2144 0.5,0.5 0,0.2857 -0.21435,0.5 -0.5,0.5 l -3,0 c -0.28565,0 -0.5,-0.2143 -0.5,-0.5 0,-0.2856 0.21435,-0.5 0.5,-0.5 z m -1.5,2 6,0 c 0.56265,0 1,0.4374 1,1 l 0,1 -1,0 -6,0 -1,0 0,-1 c 0,-0.5626 0.43735,-1 1,-1 z"
-          style="
-            font-size: medium;
-            font-style: normal;
-            font-variant: normal;
-            font-weight: normal;
-            font-stretch: normal;
-            text-indent: 0;
-            text-align: start;
-            text-decoration: none;
-            line-height: normal;
-            letter-spacing: normal;
-            word-spacing: normal;
-            text-transform: none;
-            direction: ltr;
-            block-progression: tb;
-            writing-mode: lr-tb;
-            text-anchor: start;
-            baseline-shift: baseline;
-            color: #008489;
-            fill: #008489;
-            fill-opacity: 1;
-            fill-rule: nonzero;
-            stroke: none;
-            visibility: visible;
-            display: inline;
-            overflow: visible;
-            enable-background: accumulate;
-            font-family: sans-serif;
-          "
-        />
-      </g>
+      <path
+        fill="#008489"
+        d="M80,119.834c0,13.241-10.729,23.979-23.963,23.979c-13.232,0-23.962-10.737-23.962-23.979  c0-13.239,10.729-23.975,23.962-23.975C69.271,95.859,80,106.595,80,119.834z M80,143.812c42.6,0,85.201,0,127.801,0  C162.759,100.185,125.654,102.203,80,143.812L80,143.812z M224.025,112.094v47.953H15.975V80H0v127.875h15.975v-16.109h208.05V208  H240v-95.906H224.025z"
+      />
     </svg>
     <div class="pl-5 bbtn-search">
       <button
         id="options-menu"
         type="button"
-        class="semibold-14px mt-1 inline-flex justify-center w-full ml-1 px-4 py-1 text-sm font-medium hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+        class="semibold-14px bed mt-1 inline-flex justify-center w-full ml-1 px-4 py-1 text-sm font-medium hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
         aria-haspopup="true"
         aria-expanded="true"
         @click="
@@ -170,6 +140,13 @@ export default {
 }
 </script>
 <style scoped>
+.bed {
+  margin-top: 0.4rem;
+}
+.beds {
+  margin-top: 0.6rem;
+  color: #008489 !important;
+}
 .ssearch {
   z-index: 0;
   background: transparent !important;

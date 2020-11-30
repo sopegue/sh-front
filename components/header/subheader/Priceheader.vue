@@ -8,7 +8,7 @@
       <span :class="{ 'color-008489': scrollpos > 1 }">Price</span>
     </div>
     <svg
-      class="absolute color-008489 left-0 ml-3 mt-2 h-6 w-6"
+      class="absolute beds color-008489 left-0 ml-3 mt-2 h-5 w-5"
       fill="currentColor"
       viewBox="0 0 20 20"
       xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@
       <button
         id="options-menu"
         type="button"
-        class="semibold-14px mt-1 inline-flex justify-center w-full ml-1 px-4 py-1 text-sm font-medium hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+        class="semibold-14px bed mt-1 inline-flex justify-center w-full ml-1 px-4 py-1 text-sm font-medium hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
         aria-haspopup="true"
         aria-expanded="true"
         @click="
@@ -135,6 +135,12 @@ export default {
 }
 </script>
 <style scoped>
+.bed {
+  margin-top: 0.4rem;
+}
+.beds {
+  margin-top: 0.7rem;
+}
 .ssearch {
   z-index: 0;
   background: transparent !important;
